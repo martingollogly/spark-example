@@ -14,7 +14,7 @@ http://spark.apache.org/docs/latest/quick-start.html
   * https://github.com/steveloughran/winutils/
 
 
-## Starting Spark
+## Starting Spark with scala
  Open Command prompt or shell and run 
  
  ``` 
