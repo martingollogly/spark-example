@@ -4,6 +4,7 @@
 
 Download sbt from http://www.scala-sbt.org/ to package your scala app
 
+# Packaging
 Go to the folder with your scala project and run 
 
 ```
