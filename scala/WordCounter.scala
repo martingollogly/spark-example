@@ -12,6 +12,6 @@ object WordCounter {
     val countPrep = tokenizedFileData.map(word=>(word,1))
     val counts = countPrep.reduceByKey((accumValue, newValue)=>accumValue + newValue)
     val sortedCounts = counts.sortBy(kvPair=>kvPair._2, false)
-    sortedCounts.saveAsTexFile("file:///<OUTPUT_LOCATION>/ReadMeWordCount")
+    sortedCounts.saveAsTextFile("file:///<OUTPUT_LOCATION>/ReadMeWordCount")
   }
 }
