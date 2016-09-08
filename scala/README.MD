@@ -21,6 +21,6 @@ sbt pakage
 ```
 spark-submit --class main.WordCounter --master local[*]  <YOUR_BUILT_JAR_LOCATION>\word-count_2.10-0.1.jar
 ```
-> where local[*] is all available workers
+> where local[*] is all available cores on the local machine
 
 > The program should run and create the Folder with sorted entries by number of word occurences in split files
