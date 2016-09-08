@@ -17,9 +17,16 @@ https://app.pluralsight.com/player?course=apache-spark-fundamentals
  ``` 
  spark-shell
  ```
+
+All Spark jobs begin with sc (The Spark Context) which is supplied by the spark-shell
+
+The shell creates 2 contexts
+* sc 
+* sqlContext
  
 ## Using Spark
  
  ``` 
  :help
  ```
+
