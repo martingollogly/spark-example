@@ -13,6 +13,8 @@ Go to the folder with your scala project and run
 ```
 sbt pakage 
 ```
+> Should produce a jar file under your target directory
+
 
 ## Running Example
 
