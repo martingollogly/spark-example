@@ -1,5 +1,8 @@
 # spark-example
 
+## From course 
+https://app.pluralsight.com/player?course=apache-spark-fundamentals
+
 ## Setting it up
 
 * Download Hadoop
