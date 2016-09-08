@@ -14,3 +14,9 @@ Go to the folder with your scala project and run
 sbt pakage 
 ```
 
+## Running Example
+
+```
+spark-submit --class main.WordCounter --master local[*]  <YOUR_BUILT_JAR_LOCATION>\word-count_2.10-0.1.jar
+```
+> where local[*] is all available workers
