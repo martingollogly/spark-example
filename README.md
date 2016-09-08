@@ -29,4 +29,15 @@ The shell creates 2 contexts
  ``` 
  :help
  ```
-
+ 
+## Simple Example
+ 
+ ```
+ val textFile = sc.textFile("file:///<SPARK_HOME>/README.md")
+ ```
+ 
+ ```
+ textFile.first
+ ```
+ 
+ > res0: String = # Apache Spark
