@@ -14,5 +14,6 @@ https://app.pluralsight.com/player?course=apache-spark-fundamentals
 ## Starting Spark
  Open Command prompt or shell and run 
  
- > spark-shell
-
+ ``` 
+ spark-shell
+ ```
