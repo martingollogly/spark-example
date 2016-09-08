@@ -3,6 +3,9 @@
 ## From course 
 https://app.pluralsight.com/player?course=apache-spark-fundamentals
 
+## Spark Documentation
+http://spark.apache.org/docs/latest/quick-start.html
+
 ## Setting it up
 
 * Download Hadoop
