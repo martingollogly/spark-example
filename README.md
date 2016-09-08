@@ -31,6 +31,8 @@ The shell creates 2 contexts
  ```
  
 ## Simple Example
+
+### Read in a text file and write first line
  
  ```
  val textFile = sc.textFile("file:///<SPARK_HOME>/README.md")
