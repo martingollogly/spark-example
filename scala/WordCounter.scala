@@ -3,6 +3,13 @@ package main
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkConf
 
+/** Word Counter Class
+  * to split a document and tokenize it and working out the occurences of each string
+  * The file is written to a defined output location
+  * The closing scaladoc tag goes on its own, separate line.
+  */
+  
+def document: Nothing
 object WordCounter {
   def main(args: Array[String]) {
     val conf = new SparkConf().setAppName("Word Counter")
