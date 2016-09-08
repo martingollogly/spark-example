@@ -49,3 +49,18 @@ The shell creates 2 contexts
 ```
  val tokenizedFileData = textFile.flatMap(line=>line.split(" "))
 ```
+
+### Count the instances of each Word ans sort them
+
+``` 
+ val countPrep = tokenizedFileData.map(word=>(word,1))
+ 
+ val counts = countPrep.reduceByKey((accumValue, newValue)=>accumValue + newValue)
+ 
+ val sortedCounts = counts.sortBy(kvPair=>kvPair._2, false)
+```
+
+### Write File and check output parts
+```
+ sortedCounts.saveAsTexFile("file:///<SOME_OUTPUT_LOCATION>/ReadMeWordCount")
+```
