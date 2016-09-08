@@ -41,3 +41,9 @@ The shell creates 2 contexts
  ```
  
  > res0: String = # Apache Spark
+ 
+### Tokenize File Data
+
+```
+ val tokenizedFileData = textFile.flatMap(line=>line.split(" "))
+```
