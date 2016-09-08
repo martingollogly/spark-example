@@ -24,3 +24,5 @@ spark-submit --class main.WordCounter --master local[*]  <YOUR_BUILT_JAR_LOCATIO
 > where local[*] is all available cores on the local machine
 
 > The program should run and create the Folder with sorted entries by number of word occurences in split files
+
+> Note any ARGS passed into following the jar in this command ar fed as input to the Main method defined with --classs
