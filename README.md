@@ -49,14 +49,22 @@ The shell creates 2 contexts
 ```
  val tokenizedFileData = textFile.flatMap(line=>line.split(" "))
 ```
+> This is the Map in Map/Reduce
 
-### Count the instances of each Word ans sort them
+### Count the instances of each Word
 
+Here the word is the key and the value is the count
 ``` 
  val countPrep = tokenizedFileData.map(word=>(word,1))
  
  val counts = countPrep.reduceByKey((accumValue, newValue)=>accumValue + newValue)
- 
+```
+> This is the Reduce in Map/Reduce
+
+###
+
+Sort in decending order (_2 represents 2nd position in the tuple)
+```
  val sortedCounts = counts.sortBy(kvPair=>kvPair._2, false)
 ```
 
@@ -64,3 +72,9 @@ The shell creates 2 contexts
 ```
  sortedCounts.saveAsTexFile("file:///<SOME_OUTPUT_LOCATION>/ReadMeWordCount")
 ```
+
+## An even Simpler way using the Api
+```
+tokenizedFileData.countByValue
+```
+
