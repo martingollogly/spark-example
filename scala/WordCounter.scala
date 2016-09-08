@@ -4,6 +4,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.SparkConf
 
 /** Word Counter
+  * @author zemertz
   * to split a document and tokenize it and working out the occurences of each string
   * 
   * The file is written to a defined output location
