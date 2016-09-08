@@ -18,7 +18,7 @@ https://app.pluralsight.com/player?course=apache-spark-fundamentals
  spark-shell
  ```
  
- ## Using
+## Using Spark
  
  ``` 
  :help
