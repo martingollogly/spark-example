@@ -2,6 +2,8 @@
 
 ## Insight from following course 
 https://app.pluralsight.com/player?course=apache-spark-fundamentals
+> Note: Code Examples are built on those provided From Pluralsight Course above
+
 
 ## Spark Documentation
 http://spark.apache.org/docs/latest/quick-start.html
