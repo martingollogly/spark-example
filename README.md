@@ -1,4 +1,4 @@
-# spark-example
+# Spark examples repo for getting started
 
 ## From course 
 https://app.pluralsight.com/player?course=apache-spark-fundamentals
