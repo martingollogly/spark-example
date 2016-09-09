@@ -68,9 +68,7 @@ Here the word is the key and the value is the count
 ```
 > This is the Reduce in Map/Reduce
 
-###
-
-Sort in decending order (_2 represents 2nd position in the tuple)
+### Sort in decending order (_2 represents 2nd position in the tuple)
 ```
  val sortedCounts = counts.sortBy(kvPair=>kvPair._2, false)
 ```
