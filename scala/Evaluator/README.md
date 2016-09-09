@@ -12,3 +12,5 @@ The Example uses some Example Wiki Data available in the Pluralsight Course docu
 ```
 sbt assembly
 ```
+
+> Note: Examples From Pluralsight Course
