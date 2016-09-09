@@ -4,8 +4,10 @@
 
 The Example uses some Example Wiki Data available in the Pluralsight Course documentation
 
+* plugins.sbt must be placed under the **project** folder
+* The assembly plugin is used to include the non spark dependencies in a **fat jar**
 
-# Building Example
+# Building the Example
 
 ```
 sbt assembly
