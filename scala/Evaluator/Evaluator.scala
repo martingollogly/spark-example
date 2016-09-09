@@ -19,7 +19,7 @@ object Evaluator {
 		jobConf.set("stream.recordreader.end", "</page>")
 		FileInputFormat.addInputPaths(jobConf, "file:///Data/WikiPages_BigData.xml")
 
-		val wikiDocuments = sc.hadoopRRD(jobConf,
+		val wikiDocuments = sc.hadoopRDD(jobConf,
 			classOf[org.apache.hadoop.streaming.StreamInputFormat],
 			classOf[Text], classOf[Text])
 
