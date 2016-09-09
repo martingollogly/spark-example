@@ -24,8 +24,8 @@ http://spark.apache.org/docs/latest/quick-start.html
 All Spark jobs begin with sc (The Spark Context) which is supplied by the spark-shell
 
 The shell creates 2 contexts
-* sc - a special interpreter-aware SparkContext is already created for you in spark shell
-* sqlContext - entry point for working with structured data (rows and columns) in Spark
+* **sc** - a special interpreter-aware SparkContext is already created for you in spark shell
+* **sqlContext** - entry point for working with structured data (rows and columns) in Spark
  
 ## Using Spark shell
  
