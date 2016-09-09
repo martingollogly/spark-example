@@ -11,6 +11,8 @@ object Evaluator {
 		val conf = new SparkConf().setAppName("Language Evaluator")
 		val sc = new SparkContext(conf)
 		val jobConf = new JobConf()
+		
+		/* Set up Hadoop Configuration */
 		jobConf.set("stream.recordreader.class",
 			        "org.apache.hadoop.streaming.StreamXmlRecordReader")
 		jobConf.set("stream.recordreader.begin", "<page>")
