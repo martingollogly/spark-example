@@ -6,7 +6,7 @@ https://app.pluralsight.com/player?course=apache-spark-fundamentals
 ## Spark Documentation
 http://spark.apache.org/docs/latest/quick-start.html
 
-## Setting it up
+## Setting it up (Pre-reqs)
 
 * Download Hadoop
 * Download Spark wih hadoop file system
