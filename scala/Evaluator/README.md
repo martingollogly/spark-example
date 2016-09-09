@@ -19,7 +19,7 @@ sbt assembly
 spark-submit --class main.Evaluator target\scala-2.10\Language-Evaluator-0.1.jar
 ```
 
-The output should resmble
+The output should resemble
 
 ```
 (14,classification)
