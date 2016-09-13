@@ -1,5 +1,7 @@
 # spark-example
 
+[![Issue Count](https://codeclimate.com/github/martingollogly/spark-example/badges/issue_count.svg)](https://codeclimate.com/github/martingollogly/spark-example)
+
 ## From course 
 https://app.pluralsight.com/player?course=apache-spark-fundamentals
 
