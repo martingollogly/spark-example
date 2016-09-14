@@ -1,5 +1,6 @@
 # Spark examples repo for getting started
 
+<a href='https://travis-ci.org/martingollogly/spark-example/builds'><img src='https://travis-ci.org/martingollogly/spark-example.svg?branch=master'></a>
 <a href="https://codeclimate.com/github/martingollogly/spark-example"><img src="https://codeclimate.com/github/martingollogly/spark-example/badges/gpa.svg" /></a>
 
 ## Insight from following course 
