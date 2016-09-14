@@ -1,5 +1,7 @@
 language: scala
 scala:
    - 2.10.4
+env:
+  - EVALUATOR_DIR=scala/Evaluator
 script:
-- cd scala/Evaluator & sbt assembly
+- cd $EVALUATOR_DIR & sbt assembly
