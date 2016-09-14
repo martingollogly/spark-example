@@ -1,0 +1,7 @@
+language: scala
+scala:
+   - 2.10.4
+jdk:
+- openjdk8
+script:
+- cd scala/Evaluator & sbt assembly
