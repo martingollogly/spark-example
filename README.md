@@ -1,5 +1,7 @@
 # Spark examples repo for getting started
 
+<a href="https://codeclimate.com/github/martingollogly/spark-example"><img src="https://codeclimate.com/github/martingollogly/spark-example/badges/gpa.svg" /></a>
+
 ## Insight from following course 
 https://app.pluralsight.com/player?course=apache-spark-fundamentals
 > Note: Code Examples are built on those provided From Pluralsight Course above
