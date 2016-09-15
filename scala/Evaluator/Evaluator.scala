@@ -3,7 +3,11 @@ package main
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkConf
 
-object Evaluator {
+/**
+ * Evaluator for Wiki Content 
+ * @author Martin Gollogly
+ **/
+ object Evaluator {
   def main(args: Array[String]) {
     val conf = new SparkConf().setAppName("Language Evaluator")
     val sc = new SparkContext(conf)
