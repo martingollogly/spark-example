@@ -1,3 +1,6 @@
+
+Scala: true
+
 engines:
   shellcheck:
     enabled: true
