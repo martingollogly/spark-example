@@ -7,5 +7,4 @@ engines:
     enabled: true
 ratings:
    paths:
-   - "**.scala"
-exclude_paths: []
+   - "scala/**.scala"
