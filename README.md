@@ -18,7 +18,7 @@ http://spark.apache.org/docs/latest/quick-start.html
 * Set SPARK_HOME and HADOOP_HOME and place winutils.exe for hadoop version under hadoop bin folder
   * https://github.com/steveloughran/winutils/
 
-### Or with Docker
+### Or start with Docker Image with preinstalled Spark 
 See https://github.com/sequenceiq/docker-spark
 
 
