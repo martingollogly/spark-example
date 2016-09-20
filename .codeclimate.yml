@@ -1,8 +1,0 @@
-engines:
-  shellcheck:
-    enabled: true
-  duplication:
-    enabled: true
-ratings:
-   paths:
-   - "scala/**"
