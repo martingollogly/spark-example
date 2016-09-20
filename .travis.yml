@@ -9,7 +9,7 @@ python:
 env:
   - EVALUATOR_DIR=scala/Evaluator
 script:
-  - cd $EVALUATOR_DIR && sbt assembly coverage test && sbt coverageReport
+  - cd $EVALUATOR_DIR && sbt assembly coverage
 
 install:
 - sudo pip install --upgrade pip
