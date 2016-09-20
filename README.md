@@ -1,7 +1,7 @@
 # Spark examples repo for getting started
 
 <a href='https://travis-ci.org/martingollogly/spark-examples/builds'><img src='https://travis-ci.org/martingollogly/spark-examples.svg?branch=master'></a>
-
+[![Coverage Status](https://coveralls.io/repos/github/martingollogly/spark-examples/badge.svg?branch=master)](https://coveralls.io/github/martingollogly/spark-examples?branch=master)
 
 ## Insight from following course 
 https://app.pluralsight.com/player?course=apache-spark-fundamentals
