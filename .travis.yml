@@ -5,4 +5,4 @@ scala:
 env:
   - EVALUATOR_DIR=scala/Evaluator
 script:
-- cd $EVALUATOR_DIR & sbt assembly
+- cd $EVALUATOR_DIR && sbt assembly
