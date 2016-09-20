@@ -6,3 +6,6 @@ env:
   - EVALUATOR_DIR=scala/Evaluator
 script:
 - cd $EVALUATOR_DIR && sbt assembly
+
+after_success:
+  - coveralls
