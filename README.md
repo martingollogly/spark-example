@@ -38,7 +38,7 @@ The shell creates 2 contexts
  :help for help
  ```
  ``` 
- use two tabs to see metho definitions rather than return (e.g. sc.parallelize)
+ use two tabs to see method definitions rather than return (e.g. sc.parallelize)
  ```
  
  
