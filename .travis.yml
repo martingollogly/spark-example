@@ -1,3 +1,4 @@
+sudo: required
 language: scala
 
 scala:
@@ -11,7 +12,7 @@ script:
   - cd $EVALUATOR_DIR && sbt assembly
 
 install:
-- pip install --user --upgrade pip
+- sudo pip install --upgrade pip
 - pip install coveralls
 
 after_success:
