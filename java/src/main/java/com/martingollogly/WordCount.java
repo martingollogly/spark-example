@@ -1,4 +1,4 @@
-package com.geekcap.javaworld.sparkexample;
+package com.martingollogly;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
